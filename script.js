@@ -165,8 +165,8 @@ function toGamePage(){
 
     //Choices displayer
     function choicesDisplayer(user, pc){
-        document.getElementById("user-Choice").setAttribute('src', "image/gesture-" + user + ".svg");
-        document.getElementById("pc-Choice").setAttribute('src', "image/gesture-" + pc + ".svg");
+        document.getElementById("user-Choice").setAttribute('src', "images/gesture-" + user + ".svg");
+        document.getElementById("pc-Choice").setAttribute('src', "images/gesture-" + pc + ".svg");
     }
         //Choices displayer reset
         function choicesDisplayerReset(){
