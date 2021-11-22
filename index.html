@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Jokenpo v4</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <!--TOP BAR-->
+            <div class="bar" id="top-bar">
+
+                <div class="bttn" id="menu-bttn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="bttn rounds-page" id="initial-page-bttn">
+                    <img src="image/sign-main-page.svg" alt="">
+                </div>
+            </div>
+
+            <!--CONTENT SPACE-->
+            <div id="content-space">
+
+                <!--MAIN PAGE-->
+                <div class="page-template main-page">
+                    <div class="content-container">
+                        <div class="main-page main-page-sl-layout">
+                            <div class="bttn main-page secondary-option" id="how-works-bttn">What are the rules of this game?</div>
+                            <div class="bttn main-page main-option" id="game-bttn">
+                                <img src="image/sign-smile-play.svg" alt="">
+                            </div>
+                            <div class="bttn main-page secondary-option" id="game-history">What's the history of this game?</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--HOW MANY ROUNDS PAGE-->
+                <div class="page-template rounds-page">
+                    <div class="content-container">
+                        <div id="round-question">
+                            <img src="image/sign-challenge.svg" alt="">
+                            <img src="image/sign-how-much.svg" alt="">
+                        </div>
+                        <div id="round-how-much">
+                            <div id="number-up"></div>
+                            <input type="text" id="number-input" value="1">
+                            <div id="number-down"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GAME CONTENT SPACE-->
+            <div class="game-content-space game-page">
+                <div class="scores">
+                    <p id="pc-scores"></p>
+                </div>
+
+                <div id="blank-space">
+
+                    <div class="show-Choices" id="pc-Choice-container">
+                        <!--Will be filled by javascript-->
+                        <img id="pc-Choice" src="" alt="">
+                    </div>
+
+                    <div class="bttn" id="ivechoosen">
+                        <img src="image/sign-ready.svg" alt="">
+                    </div>
+
+                    <h1 id="showresult"></h1>
+
+                    <div class="show-Choices">
+                        <!--Will be filled by javascript-->
+                        <img id="user-Choice" src="" alt="">
+                    </div>
+
+                </div>
+                <div class="scores game-page">
+                    <p id="user-scores"></p>
+                </div>
+                <div id="game-options">
+
+                    <input  type="radio" value="0" id="rock">
+                    <label class="bttn option" for="rock" id="rockLabel">
+                        <img src="image/sign-rock.svg" alt="">
+                    </label>
+
+                    <input type="radio" value="1" id="paper">
+                    <label class="bttn option" for="paper" id="paperLabel">
+                        <img src="image/sign-paper.svg" alt="">
+                    </label>
+
+                    <input type="radio" value="2" id="scissors">
+                    <label class="bttn option" for="scissors" id="scissorsLabel">
+                        <img src="image/sign-scissors.svg" alt="">
+                    </label>
+                </div>
+            </div>
+
+            <!--BOTTOM BAR-->            
+            <div class="bar rounds-page" id="bottom-bar">
+                <!--Play button-->
+                <div class="bttn rounds-page" id="play-bttn">
+                    <img src="image/sign-start.svg" alt="">
+                </div>
+                <!--Previous page button-->
+                <div class="bttn how-works-page" id="previous-page-bttn"></div>
+                <!--Next page button-->
+                <div class="bttn how-works-page" id="next-page-bttn"></div>
+            </div>
+        
+        </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>

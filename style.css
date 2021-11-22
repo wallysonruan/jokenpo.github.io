@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*GENERAL*/
+
+body{
+    background-color: whitesmoke;
+}
+
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+}
+
+.bar{
+    width: 100%;
+    height: 15%;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.bttn{
+    width: 5.5rem;
+    height: 5rem;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+    .bttn img{
+        height: 100%;
+    }
+
+.page-template{
+    position: relative;
+    width: 100%;
+    height: 28rem;        
+}
+
+#content-space{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+    .content-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /**/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /**/
+        width: 105%;
+        height: 85%;
+    }
+
+    /*PAGES VISIBILITY*/
+
+    #bottom-bar{
+        display: none;
+    }
+
+    .main-page{
+        display: flex; /*flex*/
+    }
+    
+    .rounds-page{
+        display: none;
+    }
+    .game-page{
+        display: none;
+    }
+/*
+    #ivechoosen{
+        display: none;
+    }
+    #content-space{
+                display: none;
+            }
+*/
+    .how-works-page{
+        display: none;
+    }
+
+/*SPECIFIC*/
+
+    /*BUTTONS*/
+    #top-bar, #bottom-bar{
+        position: relative;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    #menu-bttn{
+            position: relative;
+            width: 4rem;
+            height: 3rem;
+        }
+            #menu-bttn span{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 80%;
+                height: 5px;
+                border-radius: 10px;
+                background-color: black;
+            }
+                #menu-bttn span:nth-child(1){
+                    transform: translatey(-15px);
+                    left: 6px;
+                }
+                #menu-bttn span:nth-child(3){
+                    transform: translatey(09px);
+                    left: 6px;
+                }
+
+        #initial-page-bttn{
+            visibility: block;
+            padding: 5px;
+        }
+
+        #play-bttn{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    /*PAGES*/
+            .main-page-sl-layout{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;              
+                align-items: center;
+            }
+                .main-option{
+                    background-color: rgb(202, 197, 197);
+                    width: 40%;
+                    height: 100%;
+                }
+                .secondary-option{
+                    background-color: rgb(202, 197, 197);
+                    width: 25%;
+                    height: 90%;
+                }
+                    .main-option, .secondary-option{
+                        display: flex;
+                        flex-direction: column;
+                    }    
+                    .main-option img, .secondary-option img{
+                        width: 100%;
+                    }
+
+            #round-question{
+                width: min-content;
+                height: max-content;
+            }
+                #round-question img{
+                    width: 7rem;
+                }
+            #round-how-much{
+                margin: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+                #number-up, #number-down{
+                    height: 0;
+                    width: 0;
+                    cursor: pointer;
+                }
+                    #number-up{
+                    border: 20px solid transparent;
+                    border-bottom:20px solid black;   
+                    }
+                    #number-down{
+                        border: 20px solid transparent;
+                        border-top:20px solid black;   
+                       }
+
+                #number-input{
+                    width: 5rem;
+                    height: 3rem;
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    border-radius: 10px;
+                    font-size: 24px;
+                    text-align: center;
+                    }
+        
+        .game-content-space{
+            width: 100%;
+            height: 85%;/*Bar = 15%*/
+        }
+            .scores{
+                width: 100%;
+                height: 7%;
+                font-size: 30px;
+                padding-left: 10px;
+            }
+            #blank-space{
+                width: 100%;
+                height: 60%;
+                /**/
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+                #blank-space img{
+                 height: 7rem;   
+                }
+                #pc-Choice-container{
+                    transform: rotate(180deg);
+                }
+                #ivechoosen img{
+                    width: 100%;
+                    height: 100%;
+                }
+            #game-options{
+                width: 100%;
+                height: 26%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+                #game-options input{
+                    appearance: none;
+                }
+
+                #showresult{
+                    margin: 1.5rem;
+                }
+
+                .option{
+                    position: relative;
+                    width: 30%;
+                    height: 70%;
+                    padding: 0.5rem;
+                }
+                    .option img{
+                        width: 100%;
+                    }
+
+                    #rock:checked ~ #rockLabel, #paper:checked ~ #paperLabel, #scissors:checked ~ #scissorsLabel{
+                        border: 2px solid green;
+                        box-shadow: 0px 0px 10px green;
+                    }
+                
