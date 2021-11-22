@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg9"
+   width="220"
+   height="150"
+   viewBox="0 0 220 150"
+   sodipodi:docname="sign-ready.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="333.75439"
+     inkscape:cy="310.41987"
+     inkscape:window-width="1350"
+     inkscape:window-height="729"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g15"
+     inkscape:lockguides="false" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Image 2"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Image 1"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g15"
+     style="display:inline">
+    <path
+       style="fill:#000000;stroke-width:0.654191"
+       d="M 97.420512,138.84484 84.856159,128.42599 h 6.282084 6.282159 V 118.00717 107.5884 h 3.594138 3.59423 v 10.41877 10.41882 H 110 115.39123 V 118.00717 107.5884 h 3.59424 3.59412 v 10.3956 10.39561 l 6.12133,0.17201 6.12111,0.17205 -12.41853,10.27001 -12.41867,10.27006 z M 79.449495,98.658009 v -2.97682 H 110 140.5505 v 2.97682 2.976811 H 110 79.449495 Z M 86.637852,49.682243 V 18.567262 L 97.420402,9.6517569 108.20301,0.73625581 118.98547,9.6517569 129.76796,18.567262 V 49.682243 80.797227 H 108.20301 86.637852 Z M 108.20301,41.961181 V 9.0787425 l -7.18847,5.9312525 -7.188398,5.931258 v 26.951185 26.951191 h 7.188398 7.18847 z"
+       id="path342" />
+  </g>
+</svg>
